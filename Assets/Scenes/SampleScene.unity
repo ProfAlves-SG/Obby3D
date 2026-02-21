@@ -371,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341921061}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16018225, y: 0.000000006161805, z: -9.999239e-10, w: 0.9870875}
+  m_LocalRotation: {x: 0.16018224, y: 0.000000030322866, z: -0.0000000049207234, w: 0.9870875}
   m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027481687}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18097785, y: 0.000000019462048, z: -0.0000000035813374, w: 0.9834872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1113,8 +1113,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256540616}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18976392, y: 0.0000000073152004, z: -0.0000000014138511,
-    w: 0.98182976}
+  m_LocalRotation: {x: 0.1897639, y: -0.000000006060111, z: 0.0000000011712725, w: 0.98182976}
   m_LocalPosition: {x: 0, y: -0.00000023841858, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1261,7 +1260,7 @@ GameObject:
   - component: {fileID: 1667532009}
   - component: {fileID: 1667532008}
   - component: {fileID: 1667532007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1350,8 +1349,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 100, y: 100, z: 10}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -1423,6 +1422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934069411006805643, guid: f951943b965ef0249ac4d6b96367233d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
